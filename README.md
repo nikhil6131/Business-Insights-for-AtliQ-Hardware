@@ -4,7 +4,7 @@ This project transforms raw data into a comprehensive, interactive Business Inte
 
 ## Executive Summary & Key Achievements
 The dashboard provides a single, consolidated Executive View for leadership to monitor critical KPIs and strategic performance.Key Metric (2022 Est YTD)Valuevs. Benchmark (BM)InsightNet Sales$32.06M+277.7%Strong growth, driving the total business valuation.Gross Margin % (GM %)41.26%+9.27%Margin improvement, indicating efficient cost management.Net Profit % (NP %)2.15%+152.13%Significant profitability swing, moving from negative BM territory.Forecast Accuracy85.92%+7.98%High accuracy supports efficient supply chain operations. 
-## echnical Implementation & Workflow
+## Echnical Implementation & Workflow
 This project required a complete end-to-end BI workflow, integrating multiple tools for robustness and performance:
 
 *Data Sources & PreparationSources: Data was loaded from multiple sources, including MySQL, Excel, and CSV files.
