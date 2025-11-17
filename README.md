@@ -1,9 +1,32 @@
-AtliQ Business Insights 360:
-End-to-End Power BI SolutionThis project transforms raw data into a comprehensive, interactive Business Intelligence dashboard for AtliQ Hardware, a fast-growing consumer electronics company. The primary objective was to replace outdated, manual Excel reporting with a 360° view across the entire organization (Finance, Sales, Marketing, and Supply Chain) to drive real-time, data-driven decisions.
-Executive Summary & Key Achievements:- 
-The dashboard provides a single, consolidated Executive View for leadership to monitor critical KPIs and strategic performance.Key Metric (2022 Est YTD)Valuevs. Benchmark (BM)InsightNet Sales$32.06M+277.7%Strong growth, driving the total business valuation.Gross Margin % (GM %)41.26%+9.27%Margin improvement, indicating efficient cost management.Net Profit % (NP %)2.15%+152.13%Significant profitability swing, moving from negative BM territory.Forecast Accuracy85.92%+7.98%High accuracy supports efficient supply chain operations.
-Technical Implementation & WorkflowThis project required a complete end-to-end BI workflow, integrating multiple tools for robustness and performance:
-1. Data Sources & PreparationSources: Data was loaded from multiple sources, including MySQL, Excel, and CSV files.Transformation: Power Query was used extensively to clean, merge, and transform raw datasets into analysis-ready fact and dimension tables.
-2. Data Modeling & DAXArchitecture: The model was designed using a Star Schema to ensure robust relationships and optimize query performance.Advanced DAX: Custom measures were created for complex analysis, including:Variance Analysis: Calculating performance change (Chg %) against a static Benchmark (BM) or Last Year (LY).Financial Structure: Implementing the multi-step Profit & Loss (P&L) statement accurately.Time Intelligence: Used for trend analysis and comparing performance over time periods.
-3. . Performance & DesignOptimization: DAX Studio and Power BI's Performance Analyzer were utilized to profile and tune resource-intensive DAX measures.User Experience (UX): Implemented features for seamless navigation and insight:Mockup Implementation: Successfully translated the rough sketch mockups (Profitability Matrix and P&L structure) into precise Power BI visuals.Interactivity: Utilized Bookmarks and custom slicers for dynamic filtering and view switching.🔎 Departmental Views & Actionable InsightsThe solution is segmented into specialized views to deliver targeted, specific insights:Finance View: Provides a detailed P&L statement, comparing line items (Gross Sales, Gross Margin, Costs) against the Benchmark to identify cost-saving opportunities.Sales & Marketing Views: Features the Profitability Matrix (Gross Margin % vs. Net Sales) to instantly segment customers and products into growth categories (e.g., High Volume/Low Margin) for targeted strategy.Supply Chain View: Tracks Forecast Accuracy and Net Error over time (FA Year Ago comparison) to minimize business risk, specifically identifying potential Excess Inventory (EI) or Out-of-Stock (OOS).
-Live Interactive Dashboard: (https://shorturl.at/h54Pa) 
+
+# AtliQ Business Insights 360: End-to-End Power BI Solution
+This project transforms raw data into a comprehensive, interactive Business Intelligence dashboard for AtliQ Hardware, a fast-growing consumer electronics company. The primary objective was to replace outdated, manual Excel reporting with a 360° view across the entire organization (Finance, Sales, Marketing, and Supply Chain) to drive real-time, data-driven decisions. 
+
+## Executive Summary & Key Achievements
+The dashboard provides a single, consolidated Executive View for leadership to monitor critical KPIs and strategic performance.Key Metric (2022 Est YTD)Valuevs. Benchmark (BM)InsightNet Sales$32.06M+277.7%Strong growth, driving the total business valuation.Gross Margin % (GM %)41.26%+9.27%Margin improvement, indicating efficient cost management.Net Profit % (NP %)2.15%+152.13%Significant profitability swing, moving from negative BM territory.Forecast Accuracy85.92%+7.98%High accuracy supports efficient supply chain operations. 
+## echnical Implementation & Workflow
+This project required a complete end-to-end BI workflow, integrating multiple tools for robustness and performance:
+
+*Data Sources & PreparationSources: Data was loaded from multiple sources, including MySQL, Excel, and CSV files.
+
+*Transformation: Power Query was used extensively to clean, merge, and transform raw datasets into analysis-ready fact and dimension tables.
+
+*Data Modeling & DAXArchitecture: The model was designed using a Star Schema to ensure robust relationships and optimize query performance.
+
+*Advanced DAX: Custom measures were created for complex analysis, including:Variance Analysis: Calculating performance change (Chg %) against a static Benchmark (BM) or Last Year (LY).Financial Structure: Implementing the multi-step Profit & Loss (P&L) statement accurately.
+
+*Time Intelligence: Used for trend analysis and comparing performance over time periods.
+
+*Performance & DesignOptimization: DAX Studio and Power BI's Performance Analyzer were utilized to profile and tune resource-intensive DAX measures.
+
+*User Experience (UX): Implemented features for seamless navigation and insight:Mockup Implementation: Successfully translated the rough sketch mockups (Profitability Matrix and P&L structure) into precise Power BI visuals.
+
+*Interactivity: Utilized Bookmarks and custom slicers for dynamic filtering and view switching.🔎 Departmental Views & Actionable InsightsThe solution is segmented into specialized views to deliver targeted, specific insights:
+
+   -Finance View: Provides a detailed P&L statement, comparing line items (Gross Sales, Gross Margin, Costs) against the Benchmark to identify cost-saving opportunities.
+   -Sales & Marketing Views: Features the Profitability Matrix (Gross Margin % vs. Net Sales) to instantly segment customers and products into growth categories (e.g., High Volume/Low Margin) for targeted strategy.
+   -Supply Chain View: Tracks Forecast Accuracy and Net Error over time (FA Year Ago comparison) to minimize business risk, specifically identifying potential Excess Inventory (EI) or Out-of-Stock (OOS).
+
+
+## Live Dashboard Link
+https://shorturl.at/h54Pa
